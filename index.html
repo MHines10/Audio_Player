@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Audio Player</h1>
+    <div class="player">
+        <span>
+            <h3>Bachata Heightz - Complicado Amor</h3>
+        </span>
+        
+      <button class="play-btn"><i class='bx bx-play' style='color:#ffffff'  ></i></button>
+
+      <div class="progress">
+        <div class="progress-fill"></div>
+      </div>
+      <span class="duration">0:00 / 0:00</span>
+
+      <input type="range" min="0" max="100" value="100" class="volume-slider" />
+      <!-- add audio tag here -->
+      <audio id="musicPlayer" src="/music/Bachata_Heightz_Complicado_Amor.mp3"></audio>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
